@@ -1,0 +1,30 @@
+.hero-main {
+    background: url('https://cdn.pixabay.com/photo/2015/08/19/05/31/globe-895580_640.jpg') no-repeat top right/cover;
+    background-color: var(--color-dark);
+    color: white;
+    border-radius: var(--border-radius-primary);
+    padding: var(--padding-primary);
+}
+
+.hero-text{
+    max-width: 500px;
+}
+
+.hero-subtitle{
+    font-size: 20px;
+    color: var(--color-red);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
+
+.hero-title{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: var(--font-weight-bold);
+}
+
+.hero-title em {
+    font-style: normal;
+    color: var(--color-red);
+}

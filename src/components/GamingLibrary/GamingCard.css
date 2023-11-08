@@ -1,0 +1,12 @@
+.gaming-library-cards ul li img {
+    width: 165px;
+    height: 100px;
+    border-radius: calc(var(--border-radius-primary) / 2);
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
+
+.gaming-library-cards ul {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-red);
+}
